@@ -1,0 +1,39 @@
+.dysplay-avis-clients {
+    width: 20rem;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.containair-dysplay-avis-clients {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    background-color: rgb(222, 233, 222);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.containair-dysplay-avis-clients h4 {
+    font-style: italic;
+    margin: 1rem;
+}
+
+.containair-dysplay-avis-clients p {
+    color: #453f3f;    
+}
+
+.box-img-avis {   
+    background-color: white;
+    border-radius: 100%;
+}
+
+.box-img-avis img {
+    width: 100%;
+    border-radius: 100%;
+    padding: 1rem;
+}

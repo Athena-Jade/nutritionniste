@@ -1,0 +1,25 @@
+.avis-clients{
+    display: flex;
+    flex-direction: column;   
+    margin-top: 5rem;   
+   
+}
+.avis-clients h1{
+    text-align: center;
+    color: black;
+    margin: 1rem;
+}
+.containair-avis-clients{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+
+
+@media(max-width:576px){
+    .avis-clients h1{
+       font-size: 1.75rem;
+    } 
+}

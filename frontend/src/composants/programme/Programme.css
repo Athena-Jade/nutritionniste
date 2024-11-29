@@ -1,0 +1,92 @@
+.programme {
+    margin: 5rem 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    border:2px solid #9c9c22cf ;
+    padding: 1rem;
+   
+}
+
+.programme-gauche {
+    flex: 1 1 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #a1a13ccf; */
+    background-color: #9c9c22cf;
+    margin: 0.5rem;
+    
+    
+}
+
+.programme-gauche h1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+.programme-gauche p {
+    margin: 0.25rem;
+    text-align: center;
+    font-size: 1.25rem
+}
+.programme h2{
+    margin: 1rem;
+}
+
+
+
+
+/* .programme-gauche button:hover{
+    color: white;
+    font-size: 0.9rem;
+} */
+
+
+.box-img-programme-droite {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 5rem;
+}
+
+.box-img-programme-droite img {
+    width: 100%;
+    padding: 1rem;
+}
+
+.containair-programme {
+    display: none;
+   
+}
+
+
+
+
+
+@media(max-width:768px) {   
+    .programme {
+        flex-direction:column-reverse;
+    }
+       
+}
+
+
+@media(max-width:576px) {
+    .programme-gauche h1 {
+        font-size: 1.75rem;
+    }
+    
+    .programme-gauche h2 {
+        font-size: 1.5rem;
+    }
+
+    .programme-gauche p {
+        font-size: 1rem;
+    }
+
+
+} 

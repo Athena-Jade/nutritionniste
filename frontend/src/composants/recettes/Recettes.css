@@ -1,0 +1,75 @@
+.recettes {
+    background-color: #fefefd26;
+    padding: 1rem;
+}
+
+.box-img-recettes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.box-img-recettes h3 {
+    padding: 1rem;
+}
+
+.box-para-recettes {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+ul.liste-ingredients,
+ul.preparation {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1rem;
+}
+
+
+.liste-ingredients {
+    padding: 1rem 19%;
+}
+
+ul.preparation li {
+    padding: 0.5rem;
+}
+
+@media(max-width:900px) {
+    .box-breakfast-gauche h1{     
+        font-size: 1.75rem;
+    }
+
+}
+@media(max-width:768px) {
+    .box-breakfast-gauche h1{     
+        font-size: 1.50rem;
+    }
+
+    .box-img-recettes h3,
+    .liste-ingredients h3,
+    .preparation h3 {
+        font-size: 1.20rem;
+    }
+
+}
+
+
+@media(max-width:576px) {
+
+    .box-img-recettes h3,
+    .liste-ingredients h3,
+    .preparation h3 {
+        font-size: 1.10rem;
+    }
+
+    .liste-ingredients {
+        padding: 1rem 5%;
+    } 
+}
