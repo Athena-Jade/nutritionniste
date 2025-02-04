@@ -1,0 +1,104 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    max-width: 100%;
+    padding: 1rem;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #a8a875;
+}
+
+
+nav .logo h1 {
+    color: rgba(40, 25, 7, 0.95);
+    font-family: "Anton", serif;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+ul li a {
+    color: white;
+    font-weight: 800;
+}
+
+nav .logos-reduits {
+    display: none;
+    position: absolute;
+    top: 1.75rem;
+    right: -1.5rem;
+    flex-direction: column;
+    width: 3rem;
+    height: 2rem;
+    margin-right: 1rem;
+    color: rgb(20, 81, 20);
+    cursor: pointer;
+
+}
+
+
+li a:hover {
+    background-color: rgb(20, 81, 20);
+    padding: 1rem;
+    color: white;
+}
+
+.lien-retour-portfolio {
+    color:black;
+    font-style: italic;
+    margin-left: 2rem; 
+}
+
+.lien-retour-portfolio:hover {
+    color: white;
+    padding: 1rem;
+    background-color: rgb(20, 81, 20);
+   
+}
+
+
+@media(max-width:900px) {
+    .logo h1 {
+        font-size: 1.75rem;
+    }
+}
+
+@media(max-width:600px) {
+    nav .logos-reduits {
+        display: flex;
+    }
+
+    li a:hover {
+        padding: 0.50rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul.navbar-menu {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+}

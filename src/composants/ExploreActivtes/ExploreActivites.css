@@ -1,0 +1,126 @@
+.explore-activites {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #c2b09226;
+    margin: 1rem 3%;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-animation-name: explore-activites;
+    animation-name: explore-activites;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes explore-activites {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes explore-activites {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+
+}
+
+.explore-activites h1 {  
+    font-weight: bold;
+    align-self: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.explore-activites p { 
+    color: #2e332e;
+    align-self: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.explore-activites-list {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
+    text-align: center;
+}
+
+.explore-activites-list-item img {
+    width: 80%;
+    cursor: pointer;
+    border-radius: 10%; 
+    object-fit: cover;
+    transition: 0.2s;
+}
+
+.explore-activites-list-item p {
+    margin-top: 10px;
+    color: rgb(125, 117, 117); 
+    cursor: pointer;
+    font-weight: 800;   
+    border-radius: 0.5rem;
+    font-style: italic;
+    padding: 1rem;
+}
+
+.explore-activites hr {
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+
+.explore-activites-list-item .active {  
+    border: 3px solid #9c9c22cf;
+    padding: 2px;
+}
+
+
+
+
+
+@media(max-width:550px) {
+    .explore-activites-list-item p {
+        font-size: 1rem;
+    }
+
+    .explore-activites h1 {
+        font-size: 1.75rem;
+    }
+
+    .explore-activites p {
+        font-size: 1.25rem;
+    }
+
+    .explore-activites-list {
+        flex-direction: column;
+    }
+
+    .explore-activites-list-item img {
+        width: 60%;
+    }
+
+}
+

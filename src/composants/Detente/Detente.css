@@ -1,0 +1,76 @@
+.detente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 5rem 3%;
+    background: #c2b09226;
+    padding: 1rem;
+}
+
+.detente-gauche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detente-gauche img {
+    width: 80%;
+    object-fit: cover;
+    border-radius: 5%;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.detente-droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detente p {
+    padding: 0.5rem 0;
+}
+
+.detente-droite button {
+    width: 8rem;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 0;
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+.detente-droite button:hover {
+    color: green;
+    margin: 1rem 0;
+}
+
+.show-texte-detente {
+    display: none;
+}
+
+.voir-formules a {
+    font-style: italic;
+    padding: 0.5rem 0;
+    color: black;
+    font-weight: 800;
+}
+
+.voir-formules :hover {
+    color: green;
+    font-weight: 800;
+}
+
+
+
+@media(max-width:900px) {
+    .detente {
+        flex-direction: column;
+    }
+
+    .detente-droite h2 {
+        align-self: center;
+    }
+
+}

@@ -1,0 +1,123 @@
+ .header {
+    background: url('../../assets/home.jpg') no-repeat;
+    min-height: 65vw;  
+    margin: 30px;
+    background-size: contain;
+    position: relative;
+}
+
+.bloc-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute; 
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.enfants-bloc-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bloc-header h2 {
+    background-color: #00000003;
+    width: 100%;
+}
+
+.montrer-para {
+    display: none;
+}
+
+
+
+/* lire la suite*/
+.bloc-header button {  
+    background-color: transparent;
+    margin: 0.45rem 0;
+    font-style: italic;
+    text-align: start;
+    cursor: pointer;
+}
+/*lire la suite*/
+.bloc-header button:hover{
+    color: green;
+}
+
+
+/*contactez-nous*/
+.bloc-header button {   
+    font-weight: 200;
+    font-style: italic;
+    cursor: pointer;
+    padding-bottom: 0;
+}
+
+.lien-contact p{
+    color: white;
+    font-size: 0.90rem;
+    background-color: #524029;
+    padding: 0.15rem;
+    width: 4.55rem; 
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin: 5px 0; 
+}
+
+.lien-contact:hover {
+    letter-spacing: 0.10px;
+} 
+
+/*texte bienvenue à tous*/
+.header-bienvenue  {
+    font-size: 3.5rem;
+    margin-top: -4rem;
+}
+
+@media(max-width:900px) {
+    .bloc-header h2 {
+        font-size: 1.50rem;
+    }
+
+}
+
+
+@media(max-width:768px) {
+    .bloc-header h2 {
+        font-size: 1.25rem;
+    }
+
+    .lien-contact p{
+        width: 4rem;
+    }
+}
+
+ 
+@media(max-width:576px) {
+    .bloc-header h2 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    /* lire la suite*/
+    .bloc-header button {
+        font-size: 0.75rem;
+    } 
+    /*lien-contact*/
+    .bloc-header p {
+        font-size: 0.75rem;
+    }
+    /*cacher lire la suite*/
+    .bloc-header button{
+        display: none;
+    }
+}
+
+@media(max-width:550px) {
+    .header-bienvenue  {
+        font-size: 1.75rem;
+    }    
+}

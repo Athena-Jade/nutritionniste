@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Rubik", serif;  
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(20, 81, 20);
+  padding: 1rem 0;
+  text-align: center;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(20, 81, 20);
+  padding: 1rem 0;
+}
+
+h3 {
+  font-size: 1.50rem;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(20, 81, 20);
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(20, 81, 20);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  padding-bottom: 0.25rem;
+}
+
+li {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+button {
+  border-radius: 0.5rem;
+  padding: 0.65rem; 
+  outline: none;
+  border: none;
+ 
+}
+
+button:hover {
+  letter-spacing: 0.5px;
+  color: white;
+  font-weight: 800;
+  background-color: rgb(20, 81, 20);
+}

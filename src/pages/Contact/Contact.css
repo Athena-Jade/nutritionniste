@@ -1,0 +1,59 @@
+ .formulaire-contact {
+    display: flex;
+    flex-direction: column;   
+}
+
+.login-popup-title h1 {
+    margin-top: 1rem;
+}
+
+.formulaire-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+}
+
+.infos-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+    width: 30rem;
+    text-align: center;
+    margin: 2rem 15%;
+    border: 3px solid white;
+    background-color: #98982d26;
+    padding: 1rem;
+}
+
+.infos-inputs input {
+    padding: 0.5rem;
+    border: none;
+}
+
+.infos-inputs select{
+    padding:0.5rem;
+}
+
+textarea {
+    padding: 1rem;
+    border: none;
+    max-width: 100%;
+}
+
+
+@media(max-width:576px) {
+    .login-popup-title h1 {
+        font-size: 1.75rem;
+        text-align: center;
+    }   
+}
+
+@media(max-width:500px) {
+    .infos-inputs {
+      max-width: 25rem;
+    }
+}  
+

@@ -1,0 +1,81 @@
+ .formules-header h1 {
+     position: absolute;
+     top: 50%;
+     left: 55%;
+     transform: translate(-50%, -50%);
+     color: white;
+ }
+
+ .formules {
+     margin: 5rem 10%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+     background-color: #c2b09226;
+     min-height: 80vh;
+ }
+
+ .formules-gauche {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     gap: 0.25rem;
+     padding: 1rem;
+ }
+
+ .formules-gauche p {
+     font-size: 1.50rem;
+ }
+
+ .formules-gauche button a {
+     color: black;
+ }
+
+ .formules-gauche button a:hover {
+     color: white;
+
+ }
+
+ .formules-droite {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     gap: 1rem;
+     padding: 1rem;
+ }
+
+
+ /* carousel*/
+ .carousel-composant-carousel {
+     border-color: #f5f5f5;
+     display: flex;
+     justify-content: center;
+     align-items: center;   
+     width: 100vw;   
+ }
+
+ .topContent {
+     margin-bottom: 40px;
+     font-size: 200%;
+     text-align: center;
+     color: steelblue;
+ }
+
+
+ @media(max-width:1000px) {
+     .formules {
+         flex-direction: column;
+     }
+
+ }
+
+ @media(max-width:596px) {
+     .formules-gauche h1 {
+         font-size: 1.75rem;
+     }
+
+     .formules-gauche p {
+         font-size: 1.25rem;
+     }
+ }

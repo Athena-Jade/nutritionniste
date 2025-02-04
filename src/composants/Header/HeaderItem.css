@@ -1,0 +1,10 @@
+.headerItem{
+    display: flex;
+    margin-top: -1rem;
+}
+
+@media(max-width:450px){
+    .headerItem p{
+    font-size: 0.85rem;
+    }
+} 
